@@ -134,7 +134,7 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
-# Email Settings: 
+# Email Settings:..............................................................
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
@@ -149,3 +149,4 @@ EMAIL_HOST_USER = config("EMAIL_HOST_USER", default = "")
 EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD", default = "")
 EMAIL_USE_TLS = config("EMAIL_USE_TLS", cast = bool, default = False)
 EMAIL_USE_SSL = config("EMAIL_USE_SSL", cast = bool, default = False)
+#.............................................................................
